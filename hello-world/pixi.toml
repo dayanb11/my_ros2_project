@@ -1,0 +1,13 @@
+[workspace]
+authors = ["Beni Dayan <dayanbeni@gmail.com>"]
+channels = ["conda-forge"]
+name = "Hello_World"
+platforms = ["win-64"]
+version = "0.1.0"
+
+[tasks]
+start = "python Hellow_World.py"
+
+[dependencies]
+cowpy = ">=1.1.5,<2"
+python = ">=3.14.0,<3.15"
