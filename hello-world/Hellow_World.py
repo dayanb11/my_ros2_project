@@ -1,4 +1,4 @@
-from cowpy.cow import Cowacter
+from cowpy import cow 
 
-message = Cowacter().milk("Hello Pixi fans!")
+message = cow.milk_random_cow("Hello Pixi fans!")
 print(message)
